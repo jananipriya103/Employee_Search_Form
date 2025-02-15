@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Search</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="my-4 text-center">Employee Search</h1>
+    <form id="searchForm" method="GET" action="/search">
+      <div class="form-group">
+        <label for="employeeId">Employee ID</label>
+        <input type="number" class="form-control" id="employeeId" name="employeeId" placeholder="Enter Employee ID" required>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Search</button>
+    </form>
+  </div>
+</body>
+</html>

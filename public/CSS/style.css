@@ -1,0 +1,19 @@
+/* public/css/styles.css */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    margin-top: 50px;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-weight: 300;
+  }
+  
+  .btn-block {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
